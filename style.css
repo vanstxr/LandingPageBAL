@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+margin: 0;
+padding:0;
+box-sizing: border-box;
+text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: #2C346B; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem {
+    position: absolute;
+    width: 64px;
+    height: 61px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Anton', sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.5px solid #E598D8;
+} 
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+} 
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF559;
+    border: 1px solid #282828;
+    text-shadow: 0px 4px 4px;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    color: #FFFFFF;
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: #E598D8;
+    width: 120px;
+    height: 40px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Bungee', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFF559;
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+} 
+
+.conteudo-principal-imagem {
+    height: 430px;
+} 
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+} 
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Anton', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFF559;
+    margin-bottom: 16px;
+}  
+
+.conteudo-secundario-paragrafo {
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #E598D8;
+} 
+
+.rodape-imagem {
+    height: 61px;
+    display: block;
+    margin: 0 auto;
+}
